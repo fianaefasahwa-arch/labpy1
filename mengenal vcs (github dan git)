@@ -1,0 +1,57 @@
+LAPORAN PRAKTIKUM TUGAS 4
+Nama         : Fia Naefa Sahwa
+NIM          : 312510170
+Kelas        : TI.25.A2
+Mata Kuliah  : Pengantar Pemrogaman
+Dosen        : Pak, Agung Nugroho, S.Kom, M.Kom
+
+## MENGENAL VERSION CONTROL SYSTEM (GIT & GITHUB)
+
+### Tujuan
+Memahami konsep dasar *Version control system (VCS)* menggunakan *Git* dan *GitHub*, serta cara mengelola project secara online.
+---
+### Dasar Teori
+*Git* digunakan untuk mencatat setiap perubahan file di dalam project. 
+*GitHub* berfungsi untuk menyimpan repository Git secara online untuk kolabolasi dan beckup project.
+---
+### Alat dan bahan
+- Laptop / komputer
+- Aplikasi *Git*
+- Akun *GitHub* 
+- Internet stabil
+---
+### Langkah-Langkah Praktikum
+1. Instal Git dari [git-scm.com/donwload] (https://git-scm.com/download)
+   Cek Versi Git:
+   ```bash
+   git --version
+2. Konfigurasi user global 
+   ```bash
+   git konfig ---global user.name "Fia Naefa Sahwa"
+   git konfig ---global user.email "fianaefasahwa@gmail.com"
+3. Buat Floder Project
+   ```bash
+   mkdir latihan1
+   cd latihan1
+   git init
+4. Buat File README.md:
+   ```bash
+   echo "# latihan1" >> README.md
+5. Tambahkan File dan commit:
+   ```bash 
+   git add README.md
+   git commit -m "file pertama saya" 
+6. Buat repository di GitHub bernama latihan1
+7. Hubungkan repository lokal ke GitHub:
+   ```bash
+   git remote add origin https://github.com/fianaefasahwa-arch/latihan1.git
+   git push -u origin master
+   ---
+Hasil
+Repository latihan1 berhasil dibuat dan diunggah ke GitHub. 
+Semua perintah Git berjalan tanpa eror.
+### link Repository GitHub: https://github.com/fianaefasahwa-arch/latihan1
+---
+Kesimpulan
+Dari praktikum ini saya belajar menggunakan Git untuk mencatat perubahan kode,
+dan github sebagai tempat menyimpan projec online agar mudah diakses dan dibagikan
